@@ -23,7 +23,7 @@ public class AddNewCategory extends BaseTest {
 
         //Mở trang cms.anhtester.com
         driver.get("https://cms.anhtester.com/login");
-        Thread.sleep(10000);
+        Thread.sleep(5000);
 
         //Nhập username và password
         WebElement password = driver.findElement(By.id("password"));
@@ -39,11 +39,11 @@ public class AddNewCategory extends BaseTest {
         
         // Add new category
         driver.findElement(By.xpath("//*[@id=\"main-menu\"]/li[2]/a/span[1]")).click();
-        Thread.sleep(7000);
+        Thread.sleep(2000);
         driver.findElement(By.xpath("//*[@id=\"main-menu\"]/li[2]/ul/li[8]/a/span")).click();
-        Thread.sleep(7000);
+        Thread.sleep(2000);
         driver.findElement(By.linkText("Add New category")).click();
-        Thread.sleep(7000);
+        Thread.sleep(2000);
         //name
         driver.findElement(By.id("name")).sendKeys("Women Clothing & Model");
         Thread.sleep(5000);
@@ -77,7 +77,7 @@ public class AddNewCategory extends BaseTest {
         Thread.sleep(5000);
         //Chọn Save
         driver.findElement(By.xpath("/html/body/div/div[2]/div[2]/div[1]/div/div/div/div[2]/form/div[10]/button")).click();
-        Thread.sleep(6000);
+        Thread.sleep(3000);
         // Search category vừa tạo(Women Clothing & Model) để verify kết quả
         WebElement src_category = driver.findElement(By.id("search"));
         src_category.sendKeys("Women Clothing & Model");
