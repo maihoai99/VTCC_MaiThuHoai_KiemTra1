@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+    <test name="FirstTest">
+		<packages>
+			<package name = "vcheckin.FirstPackage" />
+		</packages>
+    </test>
+    <test name="SecondTest">
+		<packages>
+			<package name = "vcheckin.*">
+				<exclude name = "vcheckin.SecondPackage" />
+			</package>
+		</packages>
+    </test>
+</suite>

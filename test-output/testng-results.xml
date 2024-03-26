@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-26T15:25:33 ICT" name="Default suite" finished-at="2024-03-26T15:27:06 ICT" duration-ms="92941">
+    <groups>
+    </groups>
+    <test started-at="2024-03-26T15:25:33 ICT" name="Default test" finished-at="2024-03-26T15:27:06 ICT" duration-ms="92941">
+      <class name="HoaiMT_vcheckin.api_cc.AddNewCategory">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:HoaiMT_vcheckin.api_cc.AddNewCategory@524d6d96]" started-at="2024-03-26T15:25:33 ICT" name="createDriver" finished-at="2024-03-26T15:25:35 ICT" duration-ms="1554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method signature="AddNew()[pri:1, instance:HoaiMT_vcheckin.api_cc.AddNewCategory@524d6d96]" started-at="2024-03-26T15:25:35 ICT" name="AddNew" finished-at="2024-03-26T15:27:06 ICT" duration-ms="91362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNew -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:HoaiMT_vcheckin.api_cc.AddNewCategory@524d6d96]" started-at="2024-03-26T15:27:06 ICT" name="closeDriver" finished-at="2024-03-26T15:27:06 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- HoaiMT_vcheckin.api_cc.AddNewCategory -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

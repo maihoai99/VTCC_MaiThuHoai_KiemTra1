@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Dev_En_Test(failed)">
+    <classes>
+      <class name="HoaiMT_vcheckin.Search">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="Search_admin"/>
+        </methods>
+      </class> <!-- HoaiMT_vcheckin.Search -->
+    </classes>
+  </test> <!-- Dev_En_Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
